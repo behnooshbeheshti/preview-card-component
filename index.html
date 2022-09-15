@@ -4,44 +4,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles/styles.css" />
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
   <style>
 
   </style>
 </head>
 
 <body>
-  <form>
-    <div class="background">
-      <div class="Image">
-        <img src="images/image-equilibrium.jpg" alt="equilibrium">
+  <main>
+    <div class="container">
+      <div class="nft-icon-container">
+        <img class="nft-icon" alt="nft-Icon" src="./images/image-equilibrium.jpg">
       </div>
+      <div class="text-container">
+        <h1>Equilibrium #3429</h1>
 
-      <div class="content">
-        <h2>
-          Equilibrium #3429
-        </h2>
-        <p>Our Equilibrium collection promotes<br>
-          balance and calm</p>
+        <p class="desc">Our Equilibrium collection promotes balance and calm.</p>
+
         <div class="row">
-          <div class="col-6">0.041 ETH</div>
-          <div class="col-6">U davs laft</div>
+          <p class="col-6">
+            <img class="icon-ethereum" alt="icon-ethereum" src="./images/icon-ethereum.svg">
+            0.041 ETH
+          </p>
+          <p class="col-6">
+            <img class="icon-clock" alt="icon-clock" src="./images/icon-clock.svg">
+            3 days left
+          </p>
         </div>
-        <hr>
-        <footer>
-          <img src="images/image-avatar.png" alt="avatar">
-          Creation of <a href="#">Jules Wyvern</a>
-        </footer>
+
+        <div class="nft-creator">
+          <img class="nft-author-avatar" alt="nft-Author" src="./images/image-avatar.png">
+          <p class="author">Creation of
+          <div class="name-author">Jules Wyvern</div>
+          </p>
+        </div>
+
       </div>
     </div>
-
-  </form>
+  </main>
 </body>
 
 </html>
