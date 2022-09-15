@@ -45,6 +45,7 @@ body {
 }
 
 .nft-icon:hover {
+  transition: all ease-in 0.3s;
   cursor: pointer;
   filter: opacity(0.5) brightness(5) grayscale(0.5);
 }
@@ -120,4 +121,14 @@ p {
 .name-author:hover {
   cursor: pointer;
   color: var(--Cyan);
+}
+
+@media (max-width: 350px) {
+  .row {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
 }
