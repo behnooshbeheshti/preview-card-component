@@ -123,6 +123,19 @@ p {
   color: var(--Cyan);
 }
 
+.attribution {
+  margin-top: 5px;
+  font-family: "Inter", sans-serif;
+  color: var(--White);
+  font-size: 9px;
+  text-align: center;
+  opacity: 0.4;
+}
+
+.attribution a {
+  color: var(--SoftBlue);
+}
+
 @media (max-width: 350px) {
   .row {
     margin: 20px 0;
